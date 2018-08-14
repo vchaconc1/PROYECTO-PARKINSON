@@ -1,7 +1,7 @@
 body
 {
-magin:60px auto;
-width:70%;
+magin: 60px auto;
+width: 70 %;
 }
 nav ul,footer ul {
     font-family: 'Helvetica', 'Arial', 'snas-Serif';
@@ -11,7 +11,7 @@ nav ul,footer ul {
 }
 nav ul li, footer ul li {
     display:inline;
-    margin-right:20px;
+    margin-right: 20px;
 }
 
 a {
@@ -33,11 +33,11 @@ a: hover {
    }
    footer {
    border top: 1px solid #d5d5d5;
-   font-size: .8 em;
+   font-size: .8em;
    }
    ul.possts {
        margin: 20px auto 40px;
-       font-size: 1.5 em;
+       font-size: 1.5em;
        }
        ul.posts li {
         list-style: none;
