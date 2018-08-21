@@ -1,0 +1,55 @@
+.boton {
+  position: relative;
+  display: inline-block;
+  padding: 0.9em 1.4em;
+  color: white;
+  text-decoration: none;
+  border-radius: 0.3em;
+  background-color: #5f41f0;
+  border-bottom: 4px solid #2200c9;
+  text-shadow: 0 -1px 0 #1a009d;
+}
+
+.boton.success {
+  background-color: #2ed983;
+  border-bottom: 4px solid #03b787;
+  text-shadow: 0 -1px 0 #009d61;
+}
+.boton.success:hover {
+  background-color: #41f0a6;
+}
+
+.boton.m {
+  font-size: 1.2em;
+}
+.boton.l {
+  font-size: 1.4em;
+  padding: 1em 2em;
+}
+.boton.block {
+  display: block;
+  text-align: center;
+}
+
+.boton.icon {
+  padding-left: 3em;
+}
+.boton.icon span {
+  position: absolute;
+  top: 0.2em;
+  left: 0;
+  font-size: 1.6em;
+  display: inline-block;
+  padding: 0.2em 0.2em;
+  box-shadow: 1px 0 0 0 white;
+}
+
+.boton.icon.right {
+  padding-right: 3em;
+  padding-left: 1.4em;
+}
+.boton.icon.right span {
+  right: 0;
+  left: auto;
+  box-shadow: -1px 0 0 0 white;
+}
